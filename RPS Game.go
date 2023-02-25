@@ -44,6 +44,10 @@ func main() {
 			fmt.Println("You win")
 			playerScore++
 
+		case playerMove == "s" && compMove == "p":
+			fmt.Println("You win")
+			playerScore++
+
 		default:
 			fmt.Println("Computer wins")
 			compScore++
